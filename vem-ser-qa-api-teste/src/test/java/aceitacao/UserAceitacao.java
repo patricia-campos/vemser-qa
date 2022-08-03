@@ -67,7 +67,7 @@ public class UserAceitacao {
         // VALIDAÇÃO
         Assert.assertEquals(resulService.getCode(), "200");
         Assert.assertEquals(resulService.getType(), "unknown");
-        Assert.assertEquals(resulService.getMessage(), "50");
+        Assert.assertEquals(resulService.getMessage(), "505050");
 
     }
 
@@ -90,7 +90,7 @@ public class UserAceitacao {
         UserPayloadDTO resulService = userService.consultarUser(username);
 
         // VALIDAÇÃO
-        Assert.assertEquals(resulService.getId(), "50");
+        Assert.assertEquals(resulService.getId(), "505050");
         Assert.assertEquals(resulService.getFirstName(), "Coraline");
         Assert.assertEquals(resulService.getLastName(), "Jones");
         Assert.assertEquals(resulService.getEmail(), "coraline@neilgaiman.com");
@@ -174,7 +174,7 @@ public class UserAceitacao {
         // VALIDAÇÃO
         Assert.assertEquals(resulService.getCode(), "200");
         Assert.assertEquals(resulService.getType(), "unknown");
-        Assert.assertEquals(resulService.getMessage(), "50");
+        Assert.assertEquals(resulService.getMessage(), "505050");
 
         // Finalizo o ciclo excluindo
         deletarUser();
