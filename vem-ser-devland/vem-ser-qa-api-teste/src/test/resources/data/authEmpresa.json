@@ -1,0 +1,13 @@
+{
+  "login": "techs",
+  "senha": "123",
+  "usuarioCreateDTO": {
+    "nome": "Tech Security",
+    "email": "techs@gmail.com",
+    "areaAtuacao": "Security",
+    "cpfCnpj": "09390568000130",
+    "foto": "https://i.imgur.com/3zry15Q.jpg",
+    "genero": "MASCULINO",
+    "tipoUsuario": "EMPRESA"
+  }
+}
