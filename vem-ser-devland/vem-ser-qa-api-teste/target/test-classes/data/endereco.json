@@ -1,0 +1,10 @@
+{
+  "tipo": "COMERCIAL",
+  "logradouro": "Bidi Bidi Bom Bom Street",
+  "numero": "512",
+  "complemento": "Apto",
+  "cep": "12345678",
+  "cidade": "San Antonio",
+  "estado": "TX",
+  "pais": "USA"
+}
