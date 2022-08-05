@@ -19,4 +19,16 @@ public class AuthenticationSteps extends Browser {
         authenticationPage.clicarBtnCreateAccount();
     }
 
+    @Test
+    public void fazerLogginComSucesso() {
+
+        indexSteps.acessarPaginaAuthenticationComSucesso();
+
+        authenticationPage.preencherEmailLogin();
+        authenticationPage.preencherPasswordLogin();
+        authenticationPage.clicarBtnSignIn();
+    }
+
+
+
 }

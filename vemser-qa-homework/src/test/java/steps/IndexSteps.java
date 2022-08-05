@@ -19,4 +19,11 @@ public class IndexSteps extends Browser {
 
         indexPage.clicarBtnContactUs();
     }
+
+    @Test
+    public void buscarItemNaIndexComSucesso() {
+        indexPage.preencherSearchField();
+        indexPage.clicarBtnSearch();
+    }
+
 }
