@@ -23,7 +23,7 @@ public class UserAceitacao {
     //                                                 POST
     //==================================================================================================================
 
-    // ENDPOINT 1 : post/user/CreateWithArray - INCLUI UM NOVO USUÁRIO COM ARRAY
+    // ENDPOINT 1 : post/user/CreateWithArray - creates list of users given input array - INCLUI UM NOVO USUÁRIO COM ARRAY
 
     @Test
     public void incluirUserArray() throws IOException {
@@ -39,7 +39,7 @@ public class UserAceitacao {
 
     //------------------------------------------------------------------------------------------------------------------
 
-    // ENDPOINT 2 : post/user/CreateWithList - INCLUI UM NOVO USUÁRIO COM LIST
+    // ENDPOINT 2 : post/user/CreateWithList - creates list of users given input array - INCLUI UM NOVO USUÁRIO COM LIST
 
     @Test
     public void incluirUserList() throws IOException {
@@ -55,7 +55,7 @@ public class UserAceitacao {
 
     //------------------------------------------------------------------------------------------------------------------
 
-    // ENDPOINT 8 : post/user - INCLUI UM NOVO USUÁRIO
+    // ENDPOINT 8 : post/user - create user - INCLUI UM NOVO USUÁRIO
 
     @Test
     public void incluirUser() throws IOException {
@@ -75,7 +75,7 @@ public class UserAceitacao {
     //                                                 GET
     //==================================================================================================================
 
-    // ENDPOINT 3 : get/user/username - CONSULTAR UM USUÁRIO COM SEU USERNAME POR PARÂMETRO
+    // ENDPOINT 3 : get/user/username - get user by username - CONSULTAR UM USUÁRIO COM SEU USERNAME POR PARÂMETRO
 
     @Test
     public void consultarUser() throws IOException {
@@ -104,7 +104,7 @@ public class UserAceitacao {
 
     //------------------------------------------------------------------------------------------------------------------
 
-    // ENDPOINT 6 : get/user/login - EFETUA LOGIN
+    // ENDPOINT 6 : get/user/login - logs user into the system - EFETUA LOGIN
 
     @Test
     public void logarUser() throws IOException {
@@ -128,7 +128,7 @@ public class UserAceitacao {
 
     //------------------------------------------------------------------------------------------------------------------
 
-    // ENDPOINT 7 : get/user/logout - EFETUA LOGOUT
+    // ENDPOINT 7 : get/user/logout - logs out user  EFETUA LOGOUT
 
     @Test
     public void logoutUser() throws IOException {
@@ -154,7 +154,7 @@ public class UserAceitacao {
     //                                                 PUT
     //==================================================================================================================
 
-    // ENDPOINT 4 : put/user/username - EFETUA A EDIÇÃO DO USUÁRIO
+    // ENDPOINT 4 : put/user/username - update user - EFETUA A EDIÇÃO DO USUÁRIO
 
     @Test
     public void editarUser() throws IOException {
