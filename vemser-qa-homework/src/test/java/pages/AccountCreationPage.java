@@ -6,8 +6,8 @@ import util.BaseTest;
 
 public class AccountCreationPage {
 
-    Faker faker = new Faker();
-    String email = faker.internet().emailAddress();
+    //Faker faker = new Faker();
+    //String email = faker.internet().emailAddress();
 
     // TODO - VALIDAÇÃO
     // public static final By msgSucessRegistration = By.cssSelector("#center_column > p");
@@ -102,7 +102,7 @@ public class AccountCreationPage {
 
     public void preencherEmailField() {
         BaseTest.clear(emailField);
-        BaseTest.sendKeys(emailField, email);
+        BaseTest.sendKeys(emailField, "coraline@coraline.com");
     }
 
     public void preencherPasswordField() {

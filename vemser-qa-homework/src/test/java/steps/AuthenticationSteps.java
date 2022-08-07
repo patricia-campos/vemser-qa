@@ -27,8 +27,10 @@ public class AuthenticationSteps extends Browser {
         authenticationPage.preencherEmailLogin();
         authenticationPage.preencherPasswordLogin();
         authenticationPage.clicarBtnSignIn();
-    }
 
+
+        //Assert.assertEquals(authenticationPage.validarMensagem(), "Welcome to your account. Here you can manage all of your personal information and orders.");
+    }
 
 
 }

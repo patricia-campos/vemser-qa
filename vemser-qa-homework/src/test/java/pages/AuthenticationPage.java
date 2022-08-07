@@ -6,8 +6,7 @@ import util.BaseTest;
 
 public class AuthenticationPage {
 
-    Faker faker = new Faker();
-    String email = faker.internet().emailAddress();
+    // public static final By msgSucessRegistration = By.cssSelector("#my-account");
 
     //==================================================================================================================
     //                                            DECLARAÇÃO DOS CAMPOS
@@ -29,18 +28,22 @@ public class AuthenticationPage {
 
     //Criar nova conta
     public void preencherEmailCreate() {
-        BaseTest.sendKeys(emailCreateField, email);
-    }
+        BaseTest.sendKeys(emailCreateField, "coraline@coraline.com");}
+
     public void clicarBtnCreateAccount() {
         BaseTest.click(btnCreateAnAccount);
     }
 
     //Fazer login em conta existente
-    public void preencherEmailLogin() {BaseTest.sendKeys(emailLoginField, email);}
+    public void preencherEmailLogin() {BaseTest.sendKeys(emailLoginField, "coraline@coraline.com");}
     public void preencherPasswordLogin() {BaseTest.sendKeys(passwordLoginField, "12345");}
     public void clicarBtnSignIn() {
         BaseTest.click(btnSignIn);
     }
+
+
+
+    //public String validarEmail() {return BaseTest.getText(msgSucessRegistration);}
 
 
 }

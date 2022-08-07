@@ -48,5 +48,8 @@ public class AccountCreationSteps extends Browser {
 
         // TODO - VALIDAÇÃO
         // Assert.assertEquals(accountCreationPage.validarMensagem(), "Welcome to your account. Here you can manage all of your personal information and orders.");
+
+
+
     }
 }
