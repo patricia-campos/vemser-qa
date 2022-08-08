@@ -16,7 +16,7 @@ public class SignUpPage {
     public static final By confirmPassword = By.cssSelector("#ConfirmPassword");
     public static final By submitBtn = By.cssSelector("#submit");
 
-    public static final By msgSucessRegistration = By.cssSelector("body > div > form > div > div:nth-child(11) > div > label");
+    public static final By msgSucessRegistration = By.cssSelector("#header_container > div.header_secondary_container > span");
 
 
     public void clicarBtnSignUp(){
